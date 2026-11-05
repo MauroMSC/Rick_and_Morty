@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rick and Morty</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/assents/image-rick1-removebg-preview.png" type="image/x-icon"
+
+        <!-- URL API https://rickandmortyapi.com/ -->
+
+    </head>
+    <body>
+
+
+        <header>
+            <a href="./index.html" class="logo-link">
+                <div class="logo">
+                    <img src="./assents/logo-0-removebg-preview.png" alt="Logo Rick and Morty" class="logo-img">
+                    <div class="logo-info">
+                        <span class="logo-text">Rick and Morty</span>
+                        <span class="logo-subtitle">Character Explorer</span>
+                    </div>
+                </div>
+            </a>
+
+            <div class="social-media">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </header>
+
+        <div class="main-container">
+
+            <h2>Conheça todos os personagens de Rick and Morty em um só lugar</h2>
+
+            
+            <div class="modal" id="modal" onclick="hideModal()" >
+
+                <div class="modal-content" id="modal-content"></div>
+
+            </div>
+
+            <div class="main-content" id="main-content"></div>
+
+            <div class="buttons">
+                <button id="back-button" disabled>Anterior</button>
+                <button id="next-button" disabled>Próxima</button>
+            </div>
+
+        </div>
+
+        <footer>
+
+            <p class="footer-logo">Rick And Morty</p>
+            <p class="copyright">Desenvolvido por &copy; MauroSouza</p>
+
+        </footer>
+    
+
+        <script src="https://kit.fontawesome.com/c75ad9e19c.js" crossorigin="anonymous"></script>
+
+        <script src="./script.js"></script>
+
+    </body>
+</html>
